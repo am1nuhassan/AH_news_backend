@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Article extends Model
+{
+    protected $fillable = [
+        'title',
+        'url',
+        'imageUrl',
+        'author',
+        'source',
+        'description',
+        'category',
+        'published_at'
+    ];
+}
